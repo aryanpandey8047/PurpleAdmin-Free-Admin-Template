@@ -14446,5 +14446,14 @@ dl {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1; }
+  .table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* for smoother mobile scrolling */
+}
+
+table {
+  white-space: nowrap; /* ensures table doesn't wrap cells */
+}
 
 /*# sourceMappingURL=style.css.map */
